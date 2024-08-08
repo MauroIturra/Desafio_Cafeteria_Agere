@@ -1,0 +1,30 @@
+body{
+    font-family: "PT Mono", monospace;
+}
+
+.Navegacion__Logo{
+    width: 2vw;
+}
+.Navegacion__Enlace{
+    color: #b8b8b8;
+    text-decoration: none;
+    font-size: 1vw;
+
+}
+.Navegacion__Boton{
+    width: 10vw;
+    height: 2vw;
+    font-size: 1vw;
+}
+.Navegacion__Boton--1{
+    background-color: white;
+    border-width: 1px;
+    border-color: #b8b8b8;
+    color: #b8b8b8;   
+}
+
+.Navegacion__Boton--2{
+    background-color: #4ca866;
+    border: none;
+    color: white;
+}

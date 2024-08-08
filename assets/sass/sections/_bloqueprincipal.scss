@@ -1,0 +1,52 @@
+.Img_Header{
+    width: 100%;
+    height: 32vw; 
+    position:relative;
+}
+
+.cuadro_blanco{
+    background-color: white;
+    width: 33.33vw;
+    height: 9vw; 
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+}
+.Cantidad_Variedades{
+    font-size: 2vw;
+}
+.Titulo_Variedades{
+    font-size: 1vw;
+}
+.columa_cuadro_amarillo{
+    display: flex;
+    flex-direction: column;
+}
+.cuadro_amarillo{
+    width: 9vw;
+    height: 9vw;
+    background-color: #eacb31;
+    margin-top: auto;    
+}
+.cuadro_naranjo{
+    width: 9vw;
+    height: 9vw;
+    background-color: #e4572e;
+    margin-top: 21vw; 
+    left: 65vw;
+    position: absolute;
+    z-index: 1;  
+    text-align: center;
+    font-size: 5.5vw;       
+}
+.columna_flex{
+    display: flex;
+    flex-direction: column;
+}
+.Titulo_Header{
+    font-size: 5vw;
+}
+.Subtitulo_Header{
+    font-size: 1.7vw;
+}
