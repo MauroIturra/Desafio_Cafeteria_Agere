@@ -8,13 +8,17 @@ body {
 }
 
 .Navegacion__Enlace {
-  color: #b8b8b8;
+  color: #989797;
   text-decoration: none;
   font-size: 1vw;
 }
 
+.Navegacion__Enlace:hover {
+  color: black;
+}
+
 .Navegacion__Boton {
-  width: 10vw;
+  width: 100%;
   height: 2vw;
   font-size: 1vw;
 }
@@ -26,10 +30,20 @@ body {
   color: #b8b8b8;
 }
 
+.Navegacion__Boton--1:hover {
+  border-color: black;
+  color: black;
+}
+
 .Navegacion__Boton--2 {
   background-color: #4ca866;
   border: none;
   color: white;
+}
+
+.Navegacion__Boton--2:hover {
+  background-color: #9dcfab;
+  color: #454545;
 }
 
 /*Bloque Principal*/
@@ -88,10 +102,14 @@ body {
 
 .Titulo_Header {
   font-size: 5vw;
+  margin-left: 6vw;
+  line-height: 1.2;
 }
 
 .Subtitulo_Header {
   font-size: 1.7vw;
+  margin-left: 6vw;
+  letter-spacing: normal;
 }
 
 /*Bloque secundario*/
@@ -122,6 +140,14 @@ body {
 .Img_Main2 {
   width: 100%;
   height: 20vw;
+}
+
+.Img_Main3 {
+  width: 5vw;
+  height: 10vw;
+  position: absolute;
+  z-index: 1;
+  right: 30.5vw;
 }
 
 /*# sourceMappingURL=styles.css.map */
